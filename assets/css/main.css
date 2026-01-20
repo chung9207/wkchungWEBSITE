@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Overpass:300,400,700,900');
+
+/* Variables flattened */
+/* $font-body: 'Yantramanav', sans-serif; */
+/* $font-heading: 'Overpass', sans-serif; */
+/* $text-color: #555555; */
+/* $heading-color: #1a1a1a; */
+/* $link-color: #3f51b5; */
+/* $background-color: #fff; */
+/* $max-width: 555px; */
+
+/* Reset & Base */
+body {
+    font-family: 'Yantramanav', sans-serif;
+    color: #555555;
+    background-color: #fff;
+    line-height: 1.6;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Overpass', sans-serif;
+    color: #1a1a1a;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #3f51b5;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #26348a;
+    /* darkened 15% manual approx */
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 555px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.site-header {
+    padding-top: 48px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: none;
+}
+
+.site-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.site-header .site-title {
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.site-header .site-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.site-header .site-nav a {
+    font-family: 'Overpass', sans-serif;
+    color: #3f51b5;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.site-header .site-nav a:hover {
+    color: #1a1a1a;
+}
+
+/* Content */
+.page-content {
+    min-height: 60vh;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.page-content h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+/* Profile Image Styling */
+/* Profile Image Styling */
+.page-content img.profile-img {
+    max-width: 100%;
+    width: 428px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.page-content p {
+    margin-bottom: 1.5em;
+}
+
+.page-content ul {
+    list-style: disc;
+    padding-left: 40px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.page-content ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.site-footer {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #bbb;
+    border-top: none;
+    margin-top: 60px;
+}
+
+/* Research Page Specifics */
+.research-list {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.research-list h2 {
+    font-size: 1.3rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.research-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.research-list li {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,17 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - bundle config set --local path 'vendor/bundle'
+        - bundle install
+    build:
+      commands:
+        - bundle exec jekyll build
+  artifacts:
+    baseDirectory: _site
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - 'vendor/bundle/**/*'

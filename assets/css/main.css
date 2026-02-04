@@ -169,3 +169,119 @@ a:hover {
 .research-list li {
     margin-bottom: 15px;
 }
+
+/* =============================================
+   RESPONSIVE DESIGN - Media Queries
+   ============================================= */
+
+/* Tablet and smaller (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .site-header {
+        padding-top: 30px;
+        padding-bottom: 25px;
+        margin-bottom: 30px;
+    }
+
+    .site-header .wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .site-header .site-title {
+        font-size: 1rem;
+    }
+
+    .site-header .site-nav ul {
+        gap: 15px;
+    }
+
+    .site-header .site-nav a {
+        font-size: 0.85rem;
+    }
+
+    .page-content h1 {
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+
+    .page-content img.profile-img {
+        width: 280px;
+    }
+
+    .page-content ul {
+        padding-left: 25px;
+    }
+}
+
+/* Mobile phones (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .wrapper {
+        padding: 0 15px;
+    }
+
+    .site-header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .site-header .site-title {
+        font-size: 0.9rem;
+    }
+
+    .site-header .site-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 20px;
+    }
+
+    .site-header .site-nav a {
+        font-size: 0.8rem;
+    }
+
+    .page-content {
+        padding-top: 10px;
+    }
+
+    .page-content h1 {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+    }
+
+    .page-content img.profile-img {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .page-content h2 {
+        font-size: 1rem;
+    }
+
+    .page-content h3 {
+        font-size: 0.95rem;
+    }
+
+    .page-content ul {
+        padding-left: 20px;
+    }
+
+    .site-footer {
+        padding: 30px 0;
+        margin-top: 40px;
+        font-size: 0.8rem;
+    }
+
+    .research-list h2 {
+        font-size: 1.1rem;
+    }
+
+    .research-list ul {
+        padding-left: 15px;
+    }
+}

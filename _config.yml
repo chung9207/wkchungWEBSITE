@@ -3,7 +3,7 @@ email: ujon@kanto-gakuen.ac.jp
 description: >-
   Wookyung Chung (鄭宇景 in Kanji) Associate Professor, Department of Economics, Kanto Gakuen University.
 baseurl: ""
-url: "https://chungwookyung.github.io"
+url: "https://chung9207.github.io"
 
 markdown: kramdown
 theme: null
@@ -13,4 +13,4 @@ plugins:
   - jekyll-sass-converter
 
 # GitHub Pages settings
-repository: ChungWookyung/wkchungWEBSITE
+repository: chung9207/wkchungWEBSITE

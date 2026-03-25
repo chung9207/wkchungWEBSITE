@@ -6,4 +6,4 @@ permalink: /curriculum-vitae/
 
 # Curriculum Vitae
 
-<h2><a href="https://1drv.ms/b/c/311f184bb75175dc/EU89kAs0VF5CqC8qGWhQF8gBQ3ZwDNbRJr7gbshHBREjcg?e=ZXH545" target="_blank">Click here to download</a></h2>
+<h2><a href="https://1drv.ms/b/c/311f184bb75175dc/IQBPPZALNFReQqgvKhloUBfIAbOxZz5lUW3CkW5fujZGOHs" target="_blank">Click here to download</a></h2>
